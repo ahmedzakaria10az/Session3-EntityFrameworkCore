@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Session3_EntityFrameworkCore.Enums
-{
+using Session3_EntityFrameworkCore.Enums;
+
 
 namespace Session3_EntityFrameworkCore.Models
 {

@@ -22,7 +22,7 @@ namespace Session3_EntityFrameworkCore.Models
         public ICollection<Category> SubCategories { get; set; } = new List<Category>();
 
 
-
+        //Relationship with Course
         public ICollection<Course> Courses { get; set; } = new List<Course>();
     }
 }
