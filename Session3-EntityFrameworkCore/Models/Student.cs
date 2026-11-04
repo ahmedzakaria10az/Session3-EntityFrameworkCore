@@ -13,6 +13,7 @@ namespace Session3_EntityFrameworkCore.Models
         public DateTime DateOfBirth { get; set; }
 
 
+        //Relationship with Enrollment
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
     }
 }
