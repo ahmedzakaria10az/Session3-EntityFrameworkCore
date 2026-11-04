@@ -27,6 +27,7 @@ namespace Session3_EntityFrameworkCore.Models
         public Category Category { get; set; } = null!;
 
 
+        //Relationship with Enrollment
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
     }
 }
